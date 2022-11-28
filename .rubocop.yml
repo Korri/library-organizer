@@ -1,0 +1,8 @@
+require: rubocop-minitest
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0
+
+Metrics/MethodLength:
+  Max: 25

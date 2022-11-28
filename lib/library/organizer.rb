@@ -1,5 +1,7 @@
-require "library/organizer/version"
-require "library/organizer/CLI"
+# frozen_string_literal: true
+
+require 'library/organizer/version'
+require 'library/organizer/cli'
 
 module Library
   module Organizer
