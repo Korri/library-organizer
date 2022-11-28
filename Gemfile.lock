@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    library-organizer (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.3)
+    method_source (1.0.0)
+    minitest (5.16.3)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    rake (12.3.3)
+    slop (4.9.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  library-organizer!
+  minitest (~> 5.0)
+  pry
+  rake (~> 12.0)
+  slop (~> 4.9)
+
+BUNDLED WITH
+   2.1.4

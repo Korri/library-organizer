@@ -1,4 +1,5 @@
 require "library/organizer/version"
+require "library/organizer/CLI"
 
 module Library
   module Organizer
