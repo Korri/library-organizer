@@ -1,3 +1,4 @@
+# typed: strict
 # frozen_string_literal: true
 
 require 'slop'
@@ -6,6 +7,9 @@ module Library
   module Organizer
     # Command line entry point
     class CLI
+      extend T::Sig
+
+      sig { void }
       def call
         Slop.parse do |o|
           o.bool '-d', '--dry-run', 'Pretend to run, but don\'t move/copy any files'

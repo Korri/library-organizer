@@ -36,7 +36,11 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'rubocop'
   spec.add_development_dependency 'rubocop-minitest'
+  spec.add_development_dependency 'rubocop-sorbet'
   spec.add_development_dependency 'ruby-lsp'
+  spec.add_development_dependency 'sorbet'
+  spec.add_development_dependency 'tapioca'
 
   spec.add_dependency 'slop'
+  spec.add_dependency 'sorbet-runtime'
 end
